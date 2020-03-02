@@ -1,0 +1,30 @@
+{
+    "name": "msh/posrocket",
+    "description": "A Package to help with POSRocket integration",
+    "type": "library",
+    "keywords": [
+        "php",
+        "POSRocket",
+        "gateway",
+        "online",
+        "laravel"
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Sayed Hassan",
+            "email": "mohamedsayed88772@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Msh\\POSRocket\\": "src/"
+        },
+        "classmap": [
+            "tests"
+        ]
+    }
+}
